@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1386443702 source:c:\users\rémy\documents\github\td_circulararray\maincirculararray.cpp
+	<iostream>
+	"include/CircularArray.h"
+
+1386443702 c:\users\rémy\documents\github\td_circulararray\include\circulararray.h
+	<iostream>
+	<sstream>
+	<string>
+	<stdexcept>
+	"Base.h"
+
+1386443702 c:\users\rémy\documents\github\td_circulararray\include\base.h
+	<string>
+	<iostream>
+	"class.h"
+
+1386443702 c:\users\rémy\documents\github\td_circulararray\include\class.h
+
+1386443702 source:c:\users\rémy\documents\github\td_circulararray\src\base.cpp
+	"../include/Base.h"
+	<sstream>
+
+1386443702 source:c:\users\rémy\documents\github\td_circulararray\src\class.cpp
+	"../include/Class.h"
+
