@@ -1,14 +1,22 @@
+#ifndef CIRCULARARRAY_H_INCLUDED
+#define CIRCULARARRAY_H_INCLUDED
+
 #include <iostream>
+#include <sstream>
+#include <string>
+#include <stdexcept>
+#include "Base.h"
 
 template <class T>
-class CircularArray<T> : public Base{
+class CircularArray : public Base
+{
 
 public:
 	CircularArray(const T);
 	virtual ~CircularArray();
 	virtual void add(const T*);
 	virtual int getSize() const;
-	virtual ostream& printOn(const ostream& os);
+	virtual std::ostream& printOn(const std::ostream& os);
 	virtual T& get(int) const;
 	virtual T& peekFront() const;
 	virtual T& peekLast() const;
@@ -18,3 +26,5 @@ protected:
 private:
 	T* array;
 };
+
+#endif

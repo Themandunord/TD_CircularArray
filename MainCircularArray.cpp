@@ -3,13 +3,13 @@
 
 int main(int argc, const char * argv[])
 {
-	CircularArray<int> array(5);
+	/*CircularArray<int> array(5);
 	int buff[] = {1, 2, 3, 4, 5};
 
 	for (int i = 0; i < 5; i++à
 	{
 		array.add(buff[i]);
-	}	
+	}
 
 	std::cout << "--------------------------" << std::endl;
 
@@ -18,7 +18,7 @@ int main(int argc, const char * argv[])
 
 	for (int i = 0; i < array.getSize(); i++)
 	{
-		std::cout << std:endl << array.get(i);	
+		std::cout << std:endl << array.get(i);
 	}
 
 	std::cout << std::endl << "--------------------------" << std::endl;
@@ -60,6 +60,7 @@ int main(int argc, const char * argv[])
 	array.clear();
 
 	array.printOn(std::cout << std::encl << array.getSize());
+*/
 
 	return 0;
 }
